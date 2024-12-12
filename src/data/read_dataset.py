@@ -1,4 +1,4 @@
-
+import pandas as pd
 
 def read_dataset(file_name):
-    pd.read_csv('winequality-white.csv', delimiter=';')
+    return pd.read_csv(file_name, delimiter=';')
